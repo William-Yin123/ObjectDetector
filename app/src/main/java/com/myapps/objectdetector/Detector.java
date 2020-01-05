@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Detector {
+
     public static final String MODEL_PATH = "detect.tflite";
     public static final String LABEL_PATH = "labelmap.txt";
     private static final int NUM_DETECTIONS = 10;

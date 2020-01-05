@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class SurfaceTextureListener implements TextureView.SurfaceTextureListener {
+
     public static final Size PREVIEW_SIZE = new Size(640, 480);
     public static final int ORIENTATION = 90;
 

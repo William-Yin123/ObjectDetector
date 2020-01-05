@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private static boolean allPermissionsGranted(final int[] grantResults) {
-        return grantResults.length == 1 &&  grantResults[0] == PackageManager.PERMISSION_GRANTED;
+        return grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED;
     }
 
     private void requestPermission() {
